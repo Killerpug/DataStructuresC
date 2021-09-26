@@ -1,4 +1,3 @@
-
 # CDS5BinarySearchTree
 Fifth Data Structure on C, a Dynamic key-system implementation of Binary Search Tree whose basic operations run at O(lg n).
 A Binary Tree is a node type structure, where each node can have two children nodes linked and so on. The height of the tree is 
