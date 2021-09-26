@@ -1,6 +1,6 @@
 # Debug
-To debug a new program, you need to add the corresponding configurations to build(task.json) and run(launch.json). These two templates will be the equivalent of running the command "$gcc main.c another_source.c -o hello.exe". Follow the templates:
-Note: Remember to erase the comments because .json doesn't accept them.
+To debug a new program, you need to add the corresponding configurations to build(task.json) and run(launch.json). These two templates will be the equivalent of running the command "$gcc main.c another_source.c -o hello.exe". Follow the templates(Note, Remember to erase the comments because .json doesn't accept them.):
+
 
 - tasks.json (build)
 
