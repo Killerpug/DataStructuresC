@@ -1,0 +1,94 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build Linked list", 
+            "type": "cppbuild",
+            "command": "C:\\MinGW\\bin\\gcc.exe", 
+            "args": [
+                "-g",
+                "${workspaceFolder}/CDS1LinkedList/main.c",
+                "${workspaceFolder}/CDS1LinkedList/Linked_List.c",
+                "-o",
+                "${workspaceFolder}/CDS1LinkedList/debug/Linked_List.exe" 
+
+            ],
+            "group": "build",
+            "presentation": {
+                "reveal": "silent"
+            },
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build Stack", 
+            "type": "cppbuild",
+            "command": "C:\\MinGW\\bin\\gcc.exe", 
+            "args": [
+                "-g",
+                "${workspaceFolder}/CDS2Stack/main.c",
+                "${workspaceFolder}/CDS2Stack/Stack.c",
+                "-o",
+                "${workspaceFolder}/CDS2Stack/debug/Stack.exe" 
+            ],
+            "group": "build",
+            "presentation": {
+                "reveal": "silent"
+            },
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build Queue", 
+            "type": "cppbuild",
+            "command": "C:\\MinGW\\bin\\gcc.exe",  
+            "args": [
+                "-g",
+                "${workspaceFolder}/CDS3Queue/LinkedQueue.c",
+                "${workspaceFolder}/CDS3Queue/main.c",
+                "-o",
+                "${workspaceFolder}/CDS3Queue/debug/Queue.exe"
+
+            ],
+            "group": "build",
+            "presentation": {
+                "reveal": "silent"
+            },
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build HashMap", 
+            "type": "cppbuild",
+            "command": "C:\\MinGW\\bin\\gcc.exe",
+            "args": [
+                "-g",
+                "${workspaceFolder}/CDS4HashMap/main.c",
+                "${workspaceFolder}/CDS4HashMap/Hash_Map.c",
+                "-o",
+                "${workspaceFolder}/CDS4HashMap/debug/HashMap.exe"
+
+            ],
+            "group": "build",
+            "presentation": {
+                "reveal": "silent"
+            },
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build BST", 
+            "type": "cppbuild",
+            "command": "C:\\MinGW\\bin\\gcc.exe",
+            "args": [
+                "-g",
+                "${workspaceFolder}/CDS5BinarySearchTree/main.c",
+                "${workspaceFolder}/CDS5BinarySearchTree/BST.c",
+                "-o",
+                "${workspaceFolder}/CDS5BinarySearchTree/debug/BST.exe"
+
+            ],
+            "group": "build",
+            "presentation": {
+                "reveal": "silent"
+            },
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}
