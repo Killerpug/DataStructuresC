@@ -8,15 +8,15 @@ Peek(): Returns the top element of the Stack without removing it.
 
 Methods:
 
-Node* create_node (T item);                     //create a new node with data, ref to next node, returns the pointer to mem loc.
-Node* add_node (Node* node, Stack* stack);
-Node* push(T item, Stack *stack);
-T pop(Stack *stack);
-T peek(Stack *stack);
-Stack* create_stack();                                               //create the Stack that stores nodes
-void delete_stack(Stack* stack);
-void reverse_stack(Stack* stack);
-void print_stack(Stack* stack);
-static void private_remove_adjust (Node* remove, Stack* stack);       //adjust size, memory space, recurrent deletion
-int size(Stack* stack);
-bool is_empty(Stack* stack);
+- Node* create_node (T item);                     //create a new node with data, ref to next node, returns the pointer to mem loc.
+- Node* add_node (Node* node, Stack* stack);
+- Node* push(T item, Stack *stack);
+- T pop(Stack *stack);
+- T peek(Stack *stack);
+- Stack* create_stack();                                               //create the Stack that stores nodes
+- void delete_stack(Stack* stack);
+- void reverse_stack(Stack* stack);
+- void print_stack(Stack* stack);
+- static void private_remove_adjust (Node* remove, Stack* stack);       //adjust size, memory space, recurrent deletion
+- int size(Stack* stack);
+- bool is_empty(Stack* stack);
